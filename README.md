@@ -1,7 +1,7 @@
 # :wave: Welcome to Inés Portillo WebPage
 
 **Here you will see my experience as Translator and Localiser.**
-**And also my academic background and certifications**
+**And also my academic background and certifications**[^1]
 
 ## In this file, I'm going to use a Markdown language.
 
