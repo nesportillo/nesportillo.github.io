@@ -1,7 +1,7 @@
 # Welcome to Inés Portillo WebPage
 
-** Here you will see my experience as Translator and Localiser**
-** And also my academic background and certifications**
+**Here you will see my experience as Translator and Localiser.**
+**And also my academic background and certifications**
 
 ## In this file, I'm going to use a Markdown language.
 
@@ -9,7 +9,8 @@
 [Markdown Syntax](https://www.markdownguide.org/cheat-sheet)
 
 **This is also and exercise for** *Technologies de l'information et de la communication* **course at Geneva University.**
-** We are learning how to use:**
+
+**We are learning how to use:**
 1. HTML and CSS
 2. GitHub web and GitHub desktop
 3. Essential git commands
