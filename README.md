@@ -1,4 +1,4 @@
-# Welcome to Inés Portillo WebPage
+# :wave: Welcome to Inés Portillo WebPage
 
 **Here you will see my experience as Translator and Localiser.**
 **And also my academic background and certifications**
@@ -10,7 +10,7 @@
 
 **This is also and exercise for** *Technologies de l'information et de la communication* **course at Geneva University.**
 
-**We are learning how to use:**
+**:+1:We are learning how to use:**
 1. HTML and CSS
 2. GitHub web and GitHub desktop
 3. Essential git commands
