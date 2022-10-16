@@ -1,7 +1,7 @@
 # :wave: Welcome to Inés Portillo WebPage
 
-**Here you will see my experience as Translator and Localiser.**
-**And also my academic background and certifications**[^1]
+**Technologies web et multimedia TP3.**
+**Master Traitement intformatique multilangue**[^1]
 
 ## In this file, I'm going to use a Markdown language.
 
@@ -13,9 +13,9 @@
 **:+1:We are learning how to use:**
 1. HTML and CSS
 2. GitHub web and GitHub desktop
-3. Essential git commands
-4. Markdown Language
-5. Different types of Licenses
+3. Bootstrap
+4. Responsive design
+
 
 
 [^1]: This is just an exercise, the repository is not yet finished.
