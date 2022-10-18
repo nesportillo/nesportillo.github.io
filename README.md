@@ -8,7 +8,7 @@
 ### For more info about Markdown, please check the next link:
 [Markdown Syntax](https://www.markdownguide.org/cheat-sheet)
 
-**This is also and exercise for** *Technologies de l'information et de la communication* **course at Geneva University.**
+**This is also and exercise for** *Technologies Web et Multimedia* **course at Geneva University.**
 
 **:+1:We are learning how to use:**
 1. HTML and CSS
