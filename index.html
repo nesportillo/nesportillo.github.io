@@ -3,26 +3,131 @@
     <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Inés Portillo">
-	<link rel="stylesheet" type="text/css" href="style.css">
-      <title>Page d'accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>"
+	<link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+      <title>TP3-Inés</title>
 	</head>
 	
      <body>
-	 </br>
-        <h1>Travail Practique 3</h1>
-        <h2>Technologies web et multimedia<h2>
-		
-<div style="margin-left: 0px; width: 966px;" class="topnav">
-  <a class="active" href="index.html">Academic Background</a>
-  <a href="knowledge.html">Knowledge and Certificates</a>
-  <a href="contact.html">Contact</a>
- </div> 
- 
+	   
+ <!--Le Body comence ici-->     
+        <h1>Technologies web et multimedia<h1>
+        </br>
 
-  
+<!-- Ici une Navbar. 
+Le code exemple se trouve dans la doc (https://getbootstrap.com/docs/5.2/components/navbar/) 
+Les composants sont modifiés-->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+
+                  
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                      <li class="nav-item"> <!--this class says it is a navigation bat-->
+                        <a class="nav-link active" aria-current="page" href="#">TP3</a>
+                        
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://getbootstrap.com/" target=”_blank”>Bootstrap</a>
+                        <!-- nav link refers to a link that goes to a webpage-->
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.w3schools.com/css/" target=”_blank”>CSS</a>
+                      </li>
+
+                      
+
+                     
+                      
+                    </ul> <!-- those class are the required ones for a search bar-->
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav> 
+ </br>
+
+
+ <!-- une ligne avec trois contenus-->
+ <div class="container text-center"> <!--class for all columns it makes text in the center-->
+
+  <div class="row"> <!--1 row, 3 columns-->
+
+    <div class="col-sm"> <!--column in left top-->
+      <p style="background-image: url('images/background.jpg');"> 
+       Here two tables with different elements inside like images, buttons...
+       And just below, a carousel</p>
+      <div class="spinner-border"></div> <!--this class defines the carousel-->
+     </div>
+
+    <div class="col-sm"> <!--colum in the middle top-->
+      <!--Cet element est une titre avec le même class que le precedent-->
+      <!--De plus, sm: small devices landscape phones,576px and up)-->
+      <h3>The importance of Responsive Design</h3>
+      <img src="images/design.jpg" alt="laptop and mobile display">
+    </div>
+
+    <div class="col-sm"> <!--column in rigth top--> 
+      <!--Cet element est une image-->
+      <img src="images/bootstrap.jpg" alt="logo of Bootstrap"> <!-- src is for images ; alt is the alternative text for people that can't see-->
+      <p>This is a logo from Bootstrap</p>  
+    </div>
+
+  </div>
+</div>
+<br></br>
+
+<!--ligne avec 2 (ou plus) contenus de largeur prédéfinie (e.g. 1/3 et 2/3 de la largeur de la page) 
+  qui s’affichent côte-à-côte sur les affichages dont la largeur est de 576px ou plus, 
+  et stacked sur les affichages plus petits.-->
+  <div class="row">
+
+    <div class="col-sm"> <!-- colum in left, class col-sm for small devices-->
+      <i class="bi bi-arrow-down-square-fill"></i>
+      <p>This is an icon</p>
+    </div>
+
+    <!-- column middle down-->
+    <div class="card" style="width: 18rem;"> <!--class, this is a card-->
+      <img src="images/css.png" class="card-img-top" alt="card with css imagen"> <!--class this is a card with an image at the top-->
+      <div class="card-body"> <!-- this class makes reference to the body of the card, which is only text-->
+        <p class="card-text">Here I added a card with an image.</p> 
+      </div>
+    </div>
+
+    <div class="col-sm"> <!-- column in right down-->
+      <p class="py-md-5">This is an example of a button</p>
+      <!-- the py-md-5 class determine margin et padding to x3 times space-->
+      <button class="btn btn primary">Click here </button> 
+      <!-- deux valeurs (classes) qui déterminent le formatage :btn ; btn primary -->
+      <!--ceci est aussi un class contextuelle-->
+    </div>
+  </div>
+</div>
+<br></br>
+
+<figure class="text-end">
+  <blockquote class="blockquote"> <!-- this class refers to the attribute blockquote-->
+    <p>This is not a simple paragraph, it is a blockquote.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer"> <!--this class refers to the foot of the block-->
+    Inés Portillo in <cite title="Source Title">ElPais Newspaper</cite>
+  </figcaption>
+</figure>
+<br></br>
+
 
 <footer>
 <p>© Inés Portillo, 2022</p>
+
 </footer>	
 </body>
 </html>
